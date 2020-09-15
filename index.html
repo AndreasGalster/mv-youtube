@@ -18,6 +18,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+    <script type='module'>
+      import './node_modules/@material/mwc-switch';
+    </script>
   </head>
   <body>
     <header id="header">
@@ -133,6 +137,64 @@
           </section>
 
           <section id='sidebar' class="col-md-3">
+
+            <mwc-switch checked></mwc-switch>
+
+              <a href='https://www.youtube.com/watch?v=dSl_qnWO104'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>9:47</p>
+                  <img src='https://i.ytimg.com/vi/dSl_qnWO104/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD4Fa0cYcyAtnQuf9aWV7YjB3GWbw' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    <h1>Your First GitHub Pull Request (in 10 Mins)</h1>
+                    <h2>Jackson Bates</h2>
+                    <p>53K views3 years ago</p>
+                  </div>  
+                </div>
+              </a>
+
+
+              <div class="demo-gallery">
+                <ul id="video-gallery">
+                  <li class="video" data-src="https://youtu.be/YD_gvR234qg" data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/y-video1-cover.jpg">
+                    <a href="https://youtu.be/YD_gvR234qg">
+                      <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-1.jpg">
+                      <div class="demo-gallery-poster">
+                        <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                      </div>
+                    </a>
+                  </li>
+                  <li class="video" data-src="https://www.youtube.com/watch?v=Pq9yPrLWMyU"
+                   data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/y-video2-cover.jpg">
+                    <a href="https://www.youtube.com/watch?v=Pq9yPrLWMyU">
+                      <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-2.jpg">
+                      <div class="demo-gallery-poster">
+                        <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                      </div>
+                    </a>
+                  </li>
+                  <li class="video" data-src="https://vimeo.com/1084537"
+                   data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/v-video1-cover.jpg">
+                    <a href="https://vimeo.com/1084537">
+                      <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-1.jpg">
+                      <div class="demo-gallery-poster">
+                        <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                      </div>
+                    </a>
+                  </li>
+                  <li class="video" data-src="https://vimeo.com/35451452"
+                   data-poster="https://sachinchoolur.github.io/lightGallery/static/img/videos/v-video2-cover.jpg">
+                    <a href="https://vimeo.com/35451452">
+                      <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-2.jpg">
+                      <div class="demo-gallery-poster">
+                        <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+            </div>              
+
           </section>          
         </div>
 
