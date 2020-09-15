@@ -1,0 +1,116 @@
+/* Subheadline area */
+
+#subheadline button {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: none;
+  padding: 10px;
+}
+
+#subheadline button img {
+  margin-right: 5px;
+}
+
+/* Content area */
+
+#description .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+#description button {
+  background: none;
+  border: none;
+  color: var(--yt-text);
+  font-weight: bold;
+}
+
+#description button#subscribe-cta {
+  background: var(--yt-red);
+  padding-left: 70px;
+  padding: 20px;
+  color: white;
+  border: none;
+}
+
+#main-content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#content {
+  background: white;
+}
+
+#subheadline {
+  display: flex;
+}
+
+#subheadline p {
+  flex-grow: 1;
+}
+
+#content {
+  max-width: 768px;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Ignore above this. */
+.comment-input {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  grid-template-areas: "avatar comment";
+}
+.avatar {
+  border-radius: 50%;
+  grid-area: avatar;
+  background: #fc0;
+  height: 64px;
+  width: 64px;
+}
+.input {
+  grid-area: comment;
+  background: #fefefe;
+  padding: 1rem;
+}
+.comment-list {
+  margin-top: 2rem;
+  grid-column-end: span 2;
+}
+
+.comment-item {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  grid-template-areas:
+    "avatar comment"
+    "meta meta";
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+}
+.comment {
+  grid-area: comment;
+  padding: 1rem;
+}
+.meta {
+  grid-area: meta;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: 12px;
+}
+.comment-item > .comment-list {
+  padding-left: 2rem;
+}
+
+#he {
+  font-size: 40px;
+  margin-left: 15px;
+  color: brown;
+}

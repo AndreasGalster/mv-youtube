@@ -1,0 +1,36 @@
+/* Header */
+
+#header {
+  background: white;
+  height: var(--header-height);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: 0 20px;
+}
+
+#header img {
+  height: calc(100% - 20px);
+  margin: 10px;
+}
+
+#header input,
+#header button {
+  border: 1px solid var(--yt-grey);
+}
+
+#header input {
+  width: 100%;
+}
+
+#search {
+  flex-grow: 1;
+}
+
+#search-input {
+  display: flex;
+  margin: 0 auto;
+  max-width: 500px;
+}
