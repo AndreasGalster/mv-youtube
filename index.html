@@ -17,6 +17,20 @@
       integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+    <script type='module'>
+      import './node_modules/@material/mwc-switch';
+    </script>
+<script>
+
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
+</script>
+
   </head>
   <body>
     <header id="header">
@@ -42,87 +56,351 @@
     </header>
 
     
-      <div id="content">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/V74l_zS1x8E"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <div id="main-content">
 
-        <div id="headline">
-          <h1>Contributing to Open Source Part I: The Easy Way</h1>
+        <div class="row">
+          <section id='main-content' class="col-md-9">
 
-          <div id="subheadline">
-            <p><span>60,276 views</span> • <span>Feb 27, 2014</span></p>
+                      <iframe
+                      width="100%"
+                      height="500px"
+                      src="https://www.youtube.com/embed/V74l_zS1x8E"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+            
+                    <div id="headline">
+                      <h1>Contributing to Open Source Part I: The Easy Way</h1>
+            
+                      <div id="subheadline">
+                        <p><span>60,276 views</span> • <span>Feb 27, 2014</span></p>
+            
+                        <button>
+                          <img src="./assets/icon-thumbs-up.svg" />
+                          447
+                        </button>
+                        <button>
+                          <img src="./assets/icon-thumbs-down.svg" />
+                          19
+                        </button>
+                        <button>
+                          <img src="./assets/icon-share.svg" />
+                          SHARE
+                        </button>
+                        <button>
+                          <img src="./assets/icon-playlist.svg" />
+                          SAVE
+                        </button>
+          
+                      </div>
+                    </div>
+          
+                    <div id="description">
+                      <img class='avatar' src='https://www.thispersondoesnotexist.com/image' />
+          
+                      <h3>The Odin Project</h3>
+                      <h4>1.02K subscribers</h4>
+                      <button>SHOW MORE</button>
+          
+                      <button id="subscribe-cta">SUBSCRIBE</button>
+                    </div>
+          
+                      <p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open </p>
+                      
+                     <br>
+          
+                    <div id="he"><h1>COMMENTS:</h1></div>
+                    <br>    
+                    <div class="comment-input">
+                      <div class="avatar"></div>
+                      <div class="input">
+                      <!-- In real life, we'll have a textarea here. -->
+                        <input placeholder=" Your comments here...">
+                      </div>
+                    </div>
+                        
+                    <ul class="comment-list">
+                      <li class="comment-item">
+                        <div class="avatar"></div>
+                        <div class="comment">
+                          <input placeholder=" Your comment...">
+                        </div>
+                        <div class="meta">
+                          few minutes ago... by Naqhid
+                        </div>
+          
+                        <ul class="comment-list">
+                          <li class="comment-item">
+                            <div class="avatar"></div>
+                              <div class="comment">
+                                <input placeholder=" Your comments...">
+                              </div>
+                            <div class="meta">
+                              few minutes ago... by Someone Else
+                            </div>
+                          </li>
+                        </ul>
+                  
+          
+          
+          </section>
 
-            <button>
-              <img src="./assets/icon-thumbs-up.svg" />
-              447
-            </button>
-            <button>
-              <img src="./assets/icon-thumbs-down.svg" />
-              19
-            </button>
-            <button>
-              <img src="./assets/icon-share.svg" />
-              SHARE
-            </button>
-            <button>
-              <img src="./assets/icon-playlist.svg" />
-              SAVE
-            </button>
-                            </li>
-                  </ul>
-                </li>
-            </ul>
+          <section id='sidebar' class="col-md-3">
 
-          </div>
-        </div>
-      </div>
-<div>
+            <mwc-switch checked></mwc-switch>
 
-  <div id="he"><h1>COMMENTS:</h1></div>
-  <br>    
-  <div class="comment-input">
-        <div class="avatar"></div>
-        <div class="input">
-      <!-- In real life, we'll have a textarea here. -->
-         <input placeholder=" Your comments here...">
-        </div>
-      </div>
+              
+              <a href='https://www.youtube.com/watch?v=k5E2AVpwsko'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/k5E2AVpwsko/mqdefault_6s.webp?du=3000&sqp=CJDtgfsF&rs=AOn4CLBgtQv86HyAGRAzQvEm68_VgP9VIg' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>
+                      
+                      
+                      Angular Tutorial for Beginners: Learn Angular & TypeScript</h1>
+                 <h2>Programming with Morsh</h2>
+                  <h3>1.8M views</h3>
+                 <h4>3 years ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=w3jLJU7DT5E'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/w3jLJU7DT5E/mqdefault_6s.webp?du=3000&sqp=CLC9gvsF&rs=AOn4CLBpSffJZoY8nJxotNVCC8bnp5n3YQ' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>
       
-      <ul class="comment-list">
-          <li class="comment-item">
-            <div class="avatar"></div>
-            <div class="comment">
-              <input placeholder=" Your comment...">
- 
-            </div>
-            <div class="meta">
-              few minutes ago... by Naqhid
-            </div>
-            <ul class="comment-list">
-              <li class="comment-item">
-            <div class="avatar"></div>
-            <div class="comment">
-              <input placeholder=" Your comments...">
- 
-            </div>
-            <div class="meta">
-              few minutes ago... by Someone Else
-            </div>
-            </li>
-            </div>
+                      What is GitHub?</h1>
+                 <h2>GIthub</h2>
+                  <h3>970k views</h3>
+                 <h4>3 years ago</h4>
+                  </div>  
+                </div>
+              </a>
 
-      <div id="sidebar"></div>
-    
+              <br>
+              <br>
 
-  
+              <a href='https://www.youtube.com/watch?v=nu5mdN2JIwM'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/nu5mdN2JIwM/mqdefault_6s.webp?du=3000&sqp=CPTBgvsF&rs=AOn4CLAxPyeUMVBxAaJsVpGReWb3OGyEbA' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>Sass Crash Course</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>1k views</h3>
+                 <h4>6 months ago</h4>
+                  </div>  
+                </div>
+              </a>
 
 
+              <br>
+              <br>
+
+              <a href='hhttps://www.youtube.com/watch?v=VEMyVrPC7Uw'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/VEMyVrPC7Uw/mqdefault_6s.webp?du=3000&sqp=CJSlgvsF&rs=AOn4CLA4rB0eijs1L6Z2bF6R3ZjoYW2CmQ' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>
+                      
+                      How To Grow As A Software Developer</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>46k views</h3>
+                 <h4>3 weeks ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=UBOj6rqRUME'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/UBOj6rqRUME/mqdefault_6s.webp?du=3000&sqp=CPC4gvsF&rs=AOn4CLDswWX1Jx38Fu8gI85ny70dS-33oA' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>Tailwind CSS Crash CourseP</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>142k views</h3>
+                 <h4>1 year ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=SsEn0hlKDKA'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/SsEn0hlKDKA/mqdefault_6s.webp?du=3000&sqp=CMDAgvsF&rs=AOn4CLDHgJm8wGnRPKdaM_9laGAJ3aWwVg' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>
+
+                      
+                      Should You Learn Bootstrap in 2020?
+                      </h1>
+                 <h2>Traversy Media</h2>
+                  <h3>85k views</h3>
+                 <h4>1 month ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=VvjkphEwHlQ'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/VvjkphEwHlQ/mqdefault_6s.webp?du=3000&sqp=CLCcgvsF&rs=AOn4CLDNsOojkGkci4vGDAqIfTEL2673OA' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>Minimum Job Requirements in Development</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>60k views</h3>
+                 <h4>1 month ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=0JCUH5daCCE'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/0JCUH5daCCE/mqdefault_6s.webp?du=3000&sqp=CM6sgvsF&rs=AOn4CLCV4rMYWA6ZPFBq8bLRVGJSGM7Tag' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>
+                      
+                      UI Design For Coders</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>166k views</h3>
+                 <h4>2 months ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=dSl_qnWO104'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>9:47</p>
+                  <img src='https://i.ytimg.com/vi/dSl_qnWO104/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD4Fa0cYcyAtnQuf9aWV7YjB3GWbw' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>Your First GitHub Pull Request (in 10 Mins)</h1>
+                    <h2>Jackson Bates</h2>
+                    <h3>53K views</h3>
+                    <h4>3 years ago</h4>
+                  </div>  
+                </div>
+              </a>
+              <br>
+              <br>
+
+              <a href='https://www.youtube.com/watch?v=Q-BpqyOT3a8'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/Q-BpqyOT3a8/mqdefault_6s.webp?du=3000&sqp=CMDMgfsF&rs=AOn4CLDUL1cXMw8sP5vQOcZjMMu9GpZawg' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>What Is A RESTful API? Explanation of REST & HTTP</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>1M views</h3>
+                 <h4>3 years ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+              <br>
+              <br>
+
+              <a href='hhttps://www.youtube.com/watch?v=VEMyVrPC7Uw'>
+                <div class='sidebar-item row'>
+                  <div class="col-md-4">
+                    <p class='time'>8:13</p>
+                  <img src='https://i.ytimg.com/an_webp/VEMyVrPC7Uw/mqdefault_6s.webp?du=3000&sqp=CJSlgvsF&rs=AOn4CLA4rB0eijs1L6Z2bF6R3ZjoYW2CmQ' alt='Your First GitHub Pull Request (in 10 Mins)'>
+                  </div>
+                  <div class="col-md-8">
+                    
+                    <h1>
+                      
+                      How To Grow As A Software Developer</h1>
+                 <h2>Traversy Media</h2>
+                  <h3>46k views</h3>
+                 <h4>3 weeks ago</h4>
+                  </div>  
+                </div>
+              </a>
+
+
+
+              
+
+
+
+              
+
+
+              
+
+
+
+                        
+                  </li>
+                </ul>
+            </div>              
+
+          </section>          
+        </div>
+
+
+
+
+</div>
 
   </body>
 </html>
