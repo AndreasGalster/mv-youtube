@@ -67,3 +67,74 @@ section {
 #subheadline p {
     flex-grow: 1;
 }
+
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 768px;
+    margin: auto;
+  }
+  body  * {
+    border: 1px solid;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Ignore above this. */
+  .comment-input {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    grid-template-areas: "avatar comment";
+  }
+  .avatar {
+    border-radius: 50%;
+    grid-area: avatar;
+    background: #fc0;
+    height: 64px;
+    width: 64px;
+  }
+  .input {
+    grid-area: comment;
+    background: #fefefe;
+    padding: 1rem;
+  }
+  .comment-list {
+    margin-top: 2rem;
+    grid-column-end: span 2;
+  }
+  
+  .comment-item {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    grid-template-areas: 
+      "avatar comment" 
+      "meta meta";
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+  }
+  .comment {
+    grid-area: comment;
+    padding: 1rem;
+  }
+  .meta {
+    grid-area: meta;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 12px;
+  }
+  .comment-item > .comment-list {
+    padding-left: 2rem;
+  }
+
+  #he{
+
+    font-size: 40px;
+     margin-left: 15px;
+      color: brown;
+
+  }
