@@ -1,0 +1,54 @@
+/* Basics */
+
+:root {
+    --grey: #c6c6c6;
+}
+
+body {
+    /* Important here because css reset removes padding */
+    padding-top: 50px !important;    
+}
+
+
+
+
+/* Header */
+
+section {
+    background: black;
+    width: 100%;
+    height:2000px;
+}
+
+#header {
+    background: white;
+    height: 23px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    padding: 20px;
+}
+
+#header img {
+    height: 100%;
+}
+
+#header input, #header button {
+    border: 1px solid var(--grey);
+}
+
+#header input {
+    width: 100%;    
+}
+
+#search {
+    flex-grow: 1;
+}
+
+#search-input {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+}
