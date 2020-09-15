@@ -4,28 +4,30 @@
   --yt-grey: #c6c6c6;
   --yt-red: #c00;
   --yt-text: #606060;
+  --header-height: 50px;
 }
 
 body {
   /* Important here because css reset removes padding */
-  padding-top: 50px !important;
+  padding-top: calc(var(--header-height) + 20px) !important;
 }
 
 /* Header */
 
 #header {
   background: white;
-  height: 23px;
+  height: var(--header-height);
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   display: flex;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 #header img {
-  height: 100%;
+  height: calc(100% - 20px);
+  margin: 10px;
 }
 
 #header input,
@@ -165,4 +167,8 @@ ul {
   font-size: 40px;
   margin-left: 15px;
   color: brown;
+}
+
+#sidebar {
+  background: green;
 }
