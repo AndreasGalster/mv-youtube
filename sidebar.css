@@ -1,3 +1,54 @@
 .sidebar-item img {
   width: 100%;
 }
+
+.sidebar-item h1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.sidebar-item h2,
+.sidebar-item h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--yt-text);
+}
+
+.sidebar-item .time {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background: black;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.sidebar-item .img-wrapper {
+  position: relative;
+}
+
+.sidebar-item h1,
+.sidebar-item h2,
+.sidebar-item h3 {
+  margin: 0 0 5px -5px;
+}
+
+#sidebar hr {
+  margin: 25px 0;
+}
+
+#sidebar-highlight-heading h1 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--yt-dark);
+}
+
+#sidebar-highlight-heading p {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--yt-dark-grey);
+}
