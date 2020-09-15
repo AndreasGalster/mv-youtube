@@ -17,6 +17,10 @@
   margin: 10px;
 }
 
+#header #search img {
+  margin: 0;
+}
+
 #header input,
 #header button {
   border: 1px solid var(--yt-grey);
@@ -24,14 +28,34 @@
 
 #header input {
   width: 100%;
+  padding: 10px;
+  outline: none;
+  border-right: none;
+  border-radius: 3px 0 0 3px;
+}
+
+#header button {
+  border-radius: 0 3px 3px 0;
+}
+
+#header .avatar {
+  border-radius: 50%;
+  width: auto;
 }
 
 #search {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 #search-input {
   display: flex;
   margin: 0 auto;
   max-width: 500px;
+  flex-grow: 1;
+}
+
+#header .icon {
+  opacity: 0.6;
 }
