@@ -44,6 +44,8 @@
 
 #sidebar hr {
   margin: 25px 0;
+  margin-top: 50px;
+  opacity: 0.5;
 }
 
 #sidebar-highlight-heading h1 {
@@ -56,4 +58,10 @@
   font-size: 13px;
   font-weight: 500;
   color: var(--yt-dark-grey);
+}
+
+#autoplay {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
