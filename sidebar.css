@@ -52,6 +52,7 @@
   font-size: 14px;
   font-weight: 400;
   color: var(--yt-dark);
+  flex-grow: 1;
 }
 
 #sidebar-highlight-heading p {

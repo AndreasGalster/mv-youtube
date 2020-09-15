@@ -9,6 +9,7 @@
   left: 0;
   display: flex;
   padding: 0 20px;
+  z-index: 9999;
 }
 
 #header img {
