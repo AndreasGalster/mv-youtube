@@ -52,3 +52,18 @@ section {
     margin: 0 auto;
     max-width: 500px;
 }
+
+
+/* Content area */
+
+#content {
+    background: white;
+}
+
+#subheadline {
+    display: flex;
+}
+
+#subheadline p {
+    flex-grow: 1;
+}
