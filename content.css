@@ -1,3 +1,17 @@
+/* Iframe / Video area */
+
+iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#meta-info .icon {
+  opacity: 0.6;
+}
+
 /* Subheadline area */
 
 #subheadline button {
@@ -14,25 +28,44 @@
 
 /* Content area */
 
-#description .avatar {
+#meta-info .avatar {
   width: 48px;
   height: 48px;
   border-radius: 50%;
 }
 
-#description button {
+#meta-info button {
   background: none;
   border: none;
   color: var(--yt-text);
   font-weight: bold;
 }
 
-#description button#subscribe-cta {
+#meta-info button#subscribe-cta {
   background: var(--yt-red);
   padding-left: 70px;
   padding: 20px;
   color: white;
   border: none;
+
+  background-color: #c00;
+  border: #c00;
+  border-radius: 2px;
+  color: white;
+  font-family: "Roboto", cursive;
+  font-weight: 700;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#meta-info button#show-more-cta {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 #main-content {
@@ -51,23 +84,53 @@
   margin-bottom: 40px;
 }
 
-#description h1 {
+#meta-info h1 {
   font-size: 18px;
   font-weight: 400;
   margin-top: 40px;
   margin-bottom: -3px;
 }
 
-#description p {
+#meta-info p {
   flex-grow: 1;
   font-size: 14px;
   font-weight: 400;
 }
 
-#content {
-  max-width: 768px;
-  margin: auto;
+#meta-info #text {
+  padding-right: 40px;
 }
+
+#meta-info img {
+  margin-right: 15px;
+}
+
+#meta-info h3,
+#meta-info h4 {
+  margin: 0;
+}
+
+#meta-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+#meta-info h4 {
+  font-size: 12px;
+  color: var(--yt-text);
+}
+
+#meta-info #description {
+  display: flex;
+}
+
+#meta-info {
+  border-bottom: 1px solid var(--yt-grey);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+/* Comments section */
 
 ul {
   padding: 0;
@@ -130,16 +193,4 @@ ul {
 #iframe-wrapper {
   position: relative;
   padding-top: 62%;
-}
-
-iframe {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-#description .icon {
-  opacity: 0.6;
 }
