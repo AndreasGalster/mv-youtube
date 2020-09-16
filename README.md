@@ -1,6 +1,6 @@
 # HTML & CSS: YouTube video player page
 
-![screenshot](![image](https://user-images.githubusercontent.com/3836411/93325796-21e85800-f818-11ea-9c7f-c13ba0c5239d.png)
+![Screenshot of the YouTube clone](https://user-images.githubusercontent.com/3836411/93325796-21e85800-f818-11ea-9c7f-c13ba0c5239d.png)
 
 This is the first project to build a basic YouTube clone with HTML & CSS.
 
