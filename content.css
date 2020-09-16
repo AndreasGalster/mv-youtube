@@ -29,11 +29,23 @@ iframe {
   padding: 10px;
 }
 
+#meta-info img {
+  margin-right: 15px;
+}
+
 #subheadline button img {
   margin-right: 5px;
 }
 
 /* Content area */
+
+.avatar {
+  border-radius: 50%;
+  grid-area: avatar;
+  background: #fc0;
+  height: 64px;
+  width: 64px;
+}
 
 #meta-info .avatar {
   width: 48px;
@@ -50,12 +62,7 @@ iframe {
 
 #meta-info button#subscribe-cta {
   background: var(--yt-red);
-  padding-left: 70px;
   padding: 20px;
-  color: white;
-  border: none;
-
-  background-color: #c00;
   border: #c00;
   border-radius: 2px;
   color: white;
@@ -103,10 +110,6 @@ iframe {
   padding-right: 40px;
 }
 
-#meta-info img {
-  margin-right: 15px;
-}
-
 #meta-info h3,
 #meta-info h4 {
   margin: 0;
@@ -132,8 +135,8 @@ iframe {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
-/* Comments section */
 
+/* Comments section */
 ul {
   padding: 0;
   list-style-type: none;
@@ -146,19 +149,14 @@ ul {
   grid-template-areas: "avatar comment";
   width: 100%;
 }
-.avatar {
-  border-radius: 50%;
-  grid-area: avatar;
-  background: #fc0;
-  height: 64px;
-  width: 64px;
-}
+
 .input {
   grid-area: comment;
   background: #fefefe;
   padding: 1rem;
   width: 100%;
 }
+
 .comment-list {
   margin-top: 2rem;
   grid-column-end: span 2;
@@ -173,10 +171,12 @@ ul {
   background: rgba(0, 0, 0, 0.05);
   padding: 1rem;
 }
+
 .comment {
   grid-area: comment;
   padding: 1rem;
 }
+
 .meta {
   grid-area: meta;
   display: flex;
@@ -184,6 +184,7 @@ ul {
   padding: 1rem;
   font-size: 12px;
 }
+
 .comment-item > .comment-list {
   padding-left: 2rem;
 }

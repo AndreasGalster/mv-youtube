@@ -1,5 +1,4 @@
 @import "basics.css";
-
 @import "header.css";
 @import "sidebar.css";
 @import "content.css";
@@ -15,7 +14,7 @@
 .content {
   background-color: white;
   display: flex;
-  padding: 2re;
+  padding: 2rem;
   margin-left: 10px;
 }
 
@@ -43,7 +42,7 @@
   transition: 0.4s;
 }
 
-.slider:before {
+.slider::before {
   position: absolute;
   content: "";
   height: 22px;
@@ -63,7 +62,7 @@ input:focus + .slider {
   outline: none;
 }
 
-input:checked + .slider:before {
+input:checked + .slider::before {
   transform: translate(26px);
 }
 
@@ -71,11 +70,11 @@ input:checked + .slider:before {
   border-radius: 34px;
 }
 
-.slider.round:before {
+.slider.round::before {
   border-radius: 50%;
 }
 
-ytd-button-renderer yt-formatted-string.ytd-button-renderer {
+.ytd-button-renderer {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -83,7 +82,6 @@ ytd-button-renderer yt-formatted-string.ytd-button-renderer {
 }
 
 .comment-form {
-
   margin-top: 10px;
   width: 100%;
   color: #646464;
