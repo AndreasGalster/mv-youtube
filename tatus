@@ -1,0 +1,170 @@
+[33mcommit 7d84f6c484a64377e5518dd5d3c4be0f1e2d30ae[m[33m ([m[1;36mHEAD -> [m[1;32myoutube-layout[m[33m, [m[1;31morigin/youtube-layout[m[33m)[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 12:32:19 2020 +0200
+
+    add readme
+
+[33mcommit a08e5fd83bdbf6f596712cee27c622e31411fedb[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 12:15:07 2020 +0200
+
+    give proper fileending to stickler yml file
+
+[33mcommit 960dfbcb3bbedbdfdd13324b8379bfa48f4fa2dc[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 12:11:30 2020 +0200
+
+    fix css linting errors
+
+[33mcommit 23a6038b3b0015064e9f1637944d6ca4c130b456[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 11:59:25 2020 +0200
+
+    fix css error after validation fix
+
+[33mcommit 49eeb96ebdd7989f0e215a0997606a5282458eca[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 11:44:45 2020 +0200
+
+    fix remaining validation error and same style quotes
+
+[33mcommit 574b47a6a056b5df060f1ec83d1d3097fc36faa7[m
+Merge: 8b6feae 6ab700d
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 11:38:45 2020 +0200
+
+    fix merge issues
+
+[33mcommit 8b6feae7da57d963e6e4cf32aaab9e05c9fecf3e[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 11:35:45 2020 +0200
+
+    fix almost all html validation errors
+
+[33mcommit 6ab700d5aba00312a0a4028f4533e1caa396769f[m
+Author: Naqhid <mnaqhid@gmail.com>
+Date:   Wed Sep 16 15:04:30 2020 +0530
+
+    comments and sidebar changed
+
+[33mcommit 14f9dee3c686c674e5a0890c8160cc07c12102f7[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 10:48:15 2020 +0200
+
+    remove all empty lines in html file
+
+[33mcommit dd88e7226c3890dd4033f2bc0c99645d36ddbaf7[m
+Merge: f0d32a0 29cec5f
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 10:32:51 2020 +0200
+
+    Merge branch 'youtube-layout' of github.com:AndreasGalster/mv-youtube into youtube-layout
+
+[33mcommit f0d32a0f2b53d3877e856be1fd880d734e2722ec[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 10:25:52 2020 +0200
+
+    style the content area of the youtube description
+
+[33mcommit 7878c592ba5792ca3380de9fe60e3e0b0548a25a[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 10:12:34 2020 +0200
+
+    styling description top headline bar
+
+[33mcommit 4d0e15e62b4040a862501f5801907c3ebacce71a[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 10:07:32 2020 +0200
+
+    more semantic  html for description area
+
+[33mcommit c826672dfffadab590054d00d563361f2876e27d[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Wed Sep 16 09:59:40 2020 +0200
+
+    remove mwc-switch
+
+[33mcommit 29cec5f9dbf230e5a9d4e72be1ae5849e8e03865[m
+Author: Naqhid <mnaqhid@gmail.com>
+Date:   Tue Sep 15 20:57:08 2020 +0530
+
+    comment images
+
+[33mcommit df592cda699049977ada473814027fc36a9a79b9[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 16:22:56 2020 +0200
+
+    adjust styles of header to align with YT, center search vertically
+
+[33mcommit a50fd2e375ae04afe8789d1cde5858140af2e673[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 16:16:39 2020 +0200
+
+    give iframe relative 16:9 aspect ratio
+
+[33mcommit d21cad95746a185d0da6d98c540e8afd7ce15543[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 16:09:49 2020 +0200
+
+    fix positioning of autoplay buttons
+
+[33mcommit 48b0120bc9c71ea596f5f9cf2ef3d60df6af33b8[m
+Author: Naqhid <mnaqhid@gmail.com>
+Date:   Tue Sep 15 19:25:00 2020 +0530
+
+    new change
+
+[33mcommit 30a8239bd4c503117ec38051237662058a1f25f9[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 15:11:55 2020 +0200
+
+    less spacing between sidebar items
+
+[33mcommit 89d658c49552575ab7c5b3d06e7b525bd9135443[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 15:08:14 2020 +0200
+
+    add styling for sb timestamps + styles for sidebar
+
+[33mcommit 7e99d54c22c94167c84ad68edbc15170be47f63c[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 14:41:58 2020 +0200
+
+    split up css files & add roboto font
+
+[33mcommit 494386842b95d9a664122a3ef7011318a5158c10[m
+Merge: 601c338 4b12bc6
+Author: Naqhid <mnaqhid@gmail.com>
+Date:   Tue Sep 15 18:01:32 2020 +0530
+
+    changed code
+
+[33mcommit 601c338b88a4fdab643f595ad5f95ab89994fee8[m
+Author: Naqhid <mnaqhid@gmail.com>
+Date:   Tue Sep 15 17:48:08 2020 +0530
+
+    codechange
+
+[33mcommit 4b12bc6540a2c20442699ed59b39ea875738531d[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 12:17:30 2020 +0200
+
+    add sidebar styles for images
+
+[33mcommit 9c22dea9a9a930bab180ee84e92404146bf148af[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 12:05:30 2020 +0200
+
+    refactor header + body to use css var height for positioning
+
+[33mcommit 791f23898bed48a8fa7ce4c0ba32ed220b4efd89[m
+Author: AndreasGalster <coach@andygalster.com>
+Date:   Tue Sep 15 11:54:12 2020 +0200
+
+    add description area and some additional css vars
+
+[33mcommit c42b6e733b3e6abe727a4703fbca33ba9b338b47[m
+Author: Naqhid <mnaqhid@gmail.com>
+Date:   Tue Sep 15 14:52:52 2020 +0530
+
+    add comments section
