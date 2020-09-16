@@ -144,6 +144,7 @@ ul {
   display: grid;
   grid-template-columns: 64px 1fr;
   grid-template-areas: "avatar comment";
+  width: 100%;
 }
 .avatar {
   border-radius: 50%;
@@ -156,6 +157,7 @@ ul {
   grid-area: comment;
   background: #fefefe;
   padding: 1rem;
+  width: 100%;
 }
 .comment-list {
   margin-top: 2rem;
@@ -187,7 +189,7 @@ ul {
 }
 
 #he {
-  font-size: 40px;
+  font-size: 23px;
   margin-left: 15px;
   color: brown;
 }
