@@ -23,7 +23,7 @@ a {
   color: var(--yt-text);
 }
 
-#main-content {
+main {
   margin: 0 auto;
   max-width: 85vw;
 }
