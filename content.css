@@ -37,7 +37,7 @@
 
 #main-content {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 85vw;
 }
 
 #content {
@@ -126,4 +126,8 @@ iframe {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+#description .icon {
+  opacity: 0.6;
 }
