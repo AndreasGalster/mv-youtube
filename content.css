@@ -46,10 +46,22 @@
 
 #subheadline {
   display: flex;
+  border-bottom: 1px solid var(--yt-grey);
+  padding-bottom: 5px;
+  margin-bottom: 40px;
 }
 
-#subheadline p {
+#description h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: -3px;
+}
+
+#description p {
   flex-grow: 1;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 #content {
