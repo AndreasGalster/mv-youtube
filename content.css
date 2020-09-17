@@ -137,56 +137,6 @@ iframe {
 }
 
 /* Comments section */
-ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-.comment-input {
-  display: grid;
-  grid-template-columns: 64px 1fr;
-  grid-template-areas: "avatar comment";
-  width: 100%;
-}
-
-.input {
-  grid-area: comment;
-  background: #fefefe;
-  padding: 1rem;
-  width: 100%;
-}
-
-.comment-list {
-  margin-top: 2rem;
-  grid-column-end: span 2;
-}
-
-.comment-item {
-  display: grid;
-  grid-template-columns: 64px 1fr;
-  grid-template-areas:
-    "avatar comment"
-    "meta meta";
-  background: rgba(0, 0, 0, 0.05);
-  padding: 1rem;
-}
-
-.comment {
-  grid-area: comment;
-  padding: 1rem;
-}
-
-.meta {
-  grid-area: meta;
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  font-size: 12px;
-}
-
-.comment-item > .comment-list {
-  padding-left: 2rem;
-}
 
 #he {
   font-size: 23px;
