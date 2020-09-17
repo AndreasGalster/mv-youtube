@@ -31,7 +31,6 @@
   height: 0;
 }
 
-
 .slider {
   position: absolute;
   cursor: pointer;
@@ -136,8 +135,27 @@ input:checked + .slider::before {
   text-align: left;
 }
 
+.commentIcons {
+  opacity: 0.6;
+  display: flex;
+  margin-top: 3px;
+}
+
+.commentIcons * {
+  margin-right: 20px;
+}
+
 .comments {
   margin-top: 40px;
 }
 
+.commentAuthorName {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
 
+.commentMessage {
+  font-size: 13px;
+  margin-top: 0;
+}
