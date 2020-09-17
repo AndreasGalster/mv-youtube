@@ -126,11 +126,6 @@ input:checked + .slider::before {
   flex-flow: column;
 }
 
-.commentIcons {
-  height: 1em;
-  width: 1em;
-}
-
 .commentSection {
   text-align: left;
 }
