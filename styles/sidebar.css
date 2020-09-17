@@ -7,14 +7,14 @@
   width: 100%;
 }
 
-.sidebar-item h1 {
+.sidebar-item h2 {
   font-size: 14px;
   font-weight: 500;
   color: black;
 }
 
-.sidebar-item h2,
-.sidebar-item h3 {
+.sidebar-item h3,
+.sidebar-item h4 {
   font-size: 13px;
   font-weight: 400;
   color: var(--yt-text);
@@ -36,9 +36,9 @@
   position: relative;
 }
 
-.sidebar-item h1,
 .sidebar-item h2,
-.sidebar-item h3 {
+.sidebar-item h3,
+.sidebar-item h4 {
   margin: 0 0 5px -5px;
 }
 
@@ -48,7 +48,7 @@
   opacity: 0.5;
 }
 
-#sidebar-highlight-heading h1 {
+#sidebar-highlight-heading h2 {
   font-size: 14px;
   font-weight: 400;
   color: var(--yt-dark);
