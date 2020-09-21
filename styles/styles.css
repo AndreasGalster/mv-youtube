@@ -1,0 +1,156 @@
+@import "basics.css";
+@import "header.css";
+@import "sidebar.css";
+@import "content.css";
+
+.toggle-container.paper-toggle-button {
+  display: inline-block;
+  position: relative;
+  width: 36px;
+  height: 14px;
+  margin: 4px 1px;
+}
+
+.content {
+  background-color: white;
+  display: flex;
+  padding: 2rem;
+  margin-left: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  transition: 0.4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: blue;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);
+  outline: none;
+}
+
+input:checked + .slider::before {
+  transform: translate(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+.ytd-button-renderer {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.line-break {
+  border: 1px solid #e0e0e0;
+}
+
+.submit-comment {
+  display: flex;
+  text-align: left;
+}
+
+.avatar-container {
+  flex-grow: 1;
+}
+
+.comment-form-container {
+  flex-grow: 50;
+}
+
+.comment {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.comment-form {
+  margin-top: 10px;
+  width: 100%;
+  color: #646464;
+  background-color: #f9f9f9;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.commentBody {
+  flex-grow: 50;
+  margin-left: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+.commentSection {
+  text-align: left;
+}
+
+.commentIcons {
+  opacity: 0.6;
+  display: flex;
+  margin-top: 3px;
+}
+
+.commentIcons * {
+  margin-right: 20px;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.commentAuthorName {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.commentMessage {
+  font-size: 13px;
+  margin-top: 0;
+}

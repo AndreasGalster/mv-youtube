@@ -1,0 +1,29 @@
+/* Basics */
+
+:root {
+  --yt-grey: #c6c6c6;
+  --yt-red: #c00;
+  --yt-text: #606060;
+  --yt-dark: rgb(3, 3, 3);
+  --yt-dark-grey: rgb(96, 96, 96);
+  --header-height: 50px;
+}
+
+body {
+  /* Important here because css reset removes padding */
+  padding-top: calc(var(--header-height) + 20px) !important;
+}
+
+* {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--yt-text);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 85vw;
+}

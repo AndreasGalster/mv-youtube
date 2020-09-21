@@ -1,0 +1,143 @@
+/* Iframe / Video area */
+
+iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#iframe-wrapper {
+  position: relative;
+  padding-top: 62%;
+}
+
+#meta-info .icon {
+  opacity: 0.6;
+}
+
+/* Subheadline area */
+
+#subheadline button {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: none;
+  padding: 10px;
+}
+
+#meta-info img {
+  margin-right: 15px;
+}
+
+#subheadline button img {
+  margin-right: 5px;
+}
+
+/* Content area */
+
+.avatar {
+  border-radius: 50%;
+  grid-area: avatar;
+  background: #fc0;
+  height: 64px;
+  width: 64px;
+}
+
+#meta-info .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+#meta-info button {
+  background: none;
+  border: none;
+  color: var(--yt-text);
+  font-weight: bold;
+}
+
+#meta-info button#subscribe-cta {
+  background: var(--yt-red);
+  padding: 20px;
+  border: #c00;
+  border-radius: 2px;
+  color: white;
+  font-family: "Roboto", cursive;
+  font-weight: 700;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#meta-info button#show-more-cta {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#content {
+  background: white;
+}
+
+#subheadline {
+  display: flex;
+  border-bottom: 1px solid var(--yt-grey);
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+}
+
+#meta-info h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: -3px;
+}
+
+#meta-info p {
+  flex-grow: 1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#meta-info #text {
+  padding-right: 40px;
+}
+
+#meta-info h3,
+#meta-info h4 {
+  margin: 0;
+}
+
+#meta-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+#meta-info h4 {
+  font-size: 12px;
+  color: var(--yt-text);
+}
+
+#meta-info #description {
+  display: flex;
+}
+
+#meta-info {
+  border-bottom: 1px solid var(--yt-grey);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+/* Comments section */
+
+#he {
+  font-size: 18px !important;
+}
